@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<link rel="stylesheet" type="text/css" href="file:///D:/soft_setup/nyfedit7pro/scripts/highlight.styles/default.css" />
+		<style>
+			body, table{font-family: 微软雅黑; font-size: 18pt}
+			
+			table{border-collapse: collapse; border: 1px solid gray; border-width: 2px 1px 2px 1px;}
+			th{border: 1px solid gray; padding: 4px; background-color: #ddd;}
+			td{border: 1px solid gray; padding: 4px;}
+			tr:nth-child(2n){background-color: #f8f8f8;}
+			pre{border: 2px solid #d6d6d6; padding: 0px; border-radius: 3px;}
+		</style>
+	</head>
+	<body>
+		<div>
+			<div><br />
+			</div>
+			<pre>
+<code id="ID_1721DA7E2B3" class="hljs processing"><ol><li><span class="hljs-keyword">package</span> com.msb.test01;</li><li></li><li><span class="hljs-keyword">import</span> javax.swing.*;</li><li><span class="hljs-keyword">import</span> java.awt.*;</li><li></li><li><span class="hljs-comment">/**</span></li><li> * @Auther: msb-zhaoss</li><li> */</li><li><span class="hljs-keyword">public</span> class StartGame {</li><li>    <span class="hljs-comment">//这是一个main方法，是程序的入口：</span></li><li>    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> main(<span class="hljs-keyword">String</span>[] args) {</li><li>        <span class="hljs-comment">//1.创建一个窗体：</span></li><li>        JFrame jf = <span class="hljs-keyword">new</span> JFrame();</li><li>        jf.setTitle(<span class="hljs-string">"0516训练营-贪吃蛇小游戏"</span>);</li><li>        <span class="hljs-comment">/*</span></li><li>        setBounds方法有四个参数：</li><li>        第一个参数，第二个参数：分别为距离屏幕左上角的x,y轴的距离</li><li>        第三个参数，第四个参数：分别为窗体的宽高</li><li>         */</li><li>        <span class="hljs-comment">//屏幕的宽度和高度：</span></li><li>        <span class="Apple-style-span" style="background-color: rgb(255, 255, 0);"><span class="hljs-built_in">int</span> <span class="hljs-built_in">width</span> = Toolkit.getDefaultToolkit().getScreenSize().<span class="hljs-built_in">width</span>;</span></li><li><span class="Apple-style-span" style="background-color: rgb(255, 255, 0);">        <span class="hljs-built_in">int</span> <span class="hljs-built_in">height</span> = Toolkit.getDefaultToolkit().getScreenSize().<span class="hljs-built_in">height</span>;</span></li><li></li><li><span class="Apple-style-span" style="background-color: rgb(255, 255, 0);">        jf.setBounds((<span class="hljs-built_in">width</span><span class="hljs-number">-800</span>)/<span class="hljs-number">2</span>,(<span class="hljs-built_in">height</span><span class="hljs-number">-800</span>)/<span class="hljs-number">2</span>,<span class="hljs-number">800</span>,<span class="hljs-number">800</span>);</span></li><li>        <span class="hljs-comment">//设置窗口大小不可变：</span></li><li>        jf.setResizable(<span class="hljs-keyword">false</span>);</li><li>        <span class="hljs-comment">//点击窗口的右上角的×的时候，窗口关闭的同时要让游戏停止：</span></li><li>        jf.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);</li><li></li><li></li><li>        <span class="hljs-comment">//创建一个面板：</span></li><li>        GamePanel gp = <span class="hljs-keyword">new</span> GamePanel();</li><li>        <span class="hljs-comment">//将面板添加到窗口中：</span></li><li>        jf.<span class="hljs-built_in">add</span>(gp);</li><li>        <span class="hljs-comment">//窗体是有了，但是必须得设置让它显现出来</span></li><li>        <span class="hljs-comment">//注意：这句话尽量放在最后一行</span></li><li>        jf.setVisible(<span class="hljs-keyword">true</span>);</li><li>    }</li><li>}</li><li></li></ol></code></pre>
+			<div><br />
+			</div>
+		</div>
+	</body>
+</html>
